@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    text-decoration: none
+}
+#fundacionPatitas{
+    margin: 10px;
+    color: #eaeaea;
+    font-size: 32px;
+}
+
+#navbarNav{
+justify-content: flex-end;
+margin: 15px;
+}
+
+#nav{
+    background: #4f6d7a !important;
+}
+#buttonNavbar{
+    margin: auto;
+    color: #eaeaea !important;
+}
+
+#itemText{
+    text-align: center;
+    color: #eaeaea;
+    font-size: 20px;
+}
+    
+#item{
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+#item:hover{
+background-color: #dd6e42;
+transform: scale(1.2);
+}
+body{
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*.header{
+    background-color: black;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}*/
+
+.logo{
+    width:  80px;
+    padding: 0px;
+    display: block;
+    position: relative;
+    margin-left: -250px;
+    float: left;
+
+}
+
+.navegacion ul li{
+    position: relative;
+    float: left;
+}
+
+.navegacion ul li a{
+    font-size: 20px;    
+    padding: 20px;
+    color: #FFFDFC;
+    display: block;
+    font-weight: 600;
+}
+
+a{
+    margin-top: 20px;
+}
+
+.navegacion ul li a:hover{
+    color:#CE967B;
+}
+
+.imgPpal{
+    width: 100%;
+    filter: brightness(0.25);
+}
+
+.texto-encima{
+    width: 40%;
+    position: absolute;
+    top:75%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    color: #f1f1f1;
+
+}
+
+.texto-encima-titulo{
+    font-size: 55px;
+    font-weight: 700;
+}
+.texto-encima-segundo-texto{
+    font-size: 30px;
+    color: aquamarine;
+    font-weight: 400;
+}
+
+.texto-encima-tercer-texto{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/*Quienes Somos*/
+.quienesSomos{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(imagenes/perro-gato2.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 100px 0;
+}
+
+.quienesSomos-container h3{
+    font-size: 45px;
+    line-height: 70px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.quienesSomos-container p{
+    font-size:25px;
+    color: #C5C5C5;
+    margin-bottom: 50px;
+    padding:0 100px;    
+    text-align: center;
+}
+
+.general{
+    display: flex;
+}
+
+.instalaciones, .ayuda, .programas-servicios{
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #c0d6df;
+}
+.general-2{
+    background-image: url(imagenes/instalaciones-.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-3{
+    background-image: url(imagenes/pata-perro-toma-mano-persona2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general h2{
+    font-size: 40px;
+    line-height: 50px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.general p{
+    font-size: 18px;
+    color:#414247;
+    margin: 25px 0 45px 0;
+    text-align: center;
+}
+
+ul li{
+    list-style-position: inside;
+    text-align: center;
+    font-size: 25px;
+}
+
+.general p{
+    font-size: 20px;
+}
+
+.general-4{
+    background-image: url(imagenes/Esterilizacion.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.como-podes-ayudar{
+    background-image:linear-gradient(
+        rgba(0,0,0,0.9),rgba(101, 97, 97, 0.9)), url(imagenes/perro-gato.jpg);
+    background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 50px 0;
+}
+
+#como-podes-ayudar {
+    color: #eaeaea;
+    padding-left: 15px;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 11px 35px;
+    margin-bottom: 25px ;
+    background-color: #e8dab2;
+    border-radius: 5px;
+    border: #4f6d7a solid 2px;
+    color: #4f6d7a;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 80px;
+}
+
+.btn-1:hover{
+    background-color: #dd6e42;
+    transform: scale(1.2);
+}
+
+.ayudar-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.como-podes-ayudar p, h1{
+    padding: 0px;
+    margin: auto;
+    color: #C5C5C5;
+}
+
+.como-podes-ayudar h1{
+    font-size: 50px;
+    text-align: start;
+    margin-bottom: 15px;
+}
+
+.como-podes-ayudar p{
+    font-size: 20px;
+    text-align: start;
+    margin-left: 30px;
+
+}
+
+.galeria__pic{
+    min-width: 200px;
+    flex-basis: 350px;
+    flex-grow: 1;
+    
+}
+
+.galeria__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.galeria__pic p{
+    position: relative;
+    left: -10px;
+    top: -100px;
+    font-size: 35px;
+    color: #ffffff;
+    font-weight : bold;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#footer{
+    text-align: center;
+    background-color: #4f6d7a;
+    padding: 60px 0;
+
+}
+
+.logo-footer{
+width:  250px;
+
+}
+
+#contacto{
+    color: #eaeaea;
+    margin: 15px;
+    text-align: center;
+}
+
+#iconoContacto{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+#contacto a{
+    color: #dd6e42;
+    text-decoration: none;
+    text-align: center;
+}
+
+.copyright{
+color: #eaeaea;
+font-size: 20px;
+margin: 20px;
+}
+

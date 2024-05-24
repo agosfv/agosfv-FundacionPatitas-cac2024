@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    text-decoration: none
+}
+
+#fundacionPatitas{
+    margin: 10px;
+    color: #eaeaea;
+    font-size: 32px;
+}
+
+#navbarNav{
+justify-content: flex-end;
+margin: 15px;
+}
+
+#nav{
+    background: #4f6d7a !important;
+}
+#buttonNavbar{
+    margin: auto;
+    color: #eaeaea !important;
+}
+
+#itemText{
+    text-align: center;
+    color: #eaeaea;
+    font-size: 20px;
+}
+    
+#item{
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+#item:hover{
+background-color: #dd6e42;
+transform: scale(1.2);
+}
+#div1{
+    background-color: #c0d6df;
+    text-align: center;
+    padding: 5px;
+    border: 10px;
+    margin: 0px;
+    
+}
+#div1 h1 {
+    color: #dd6e42;
+}
+#textoFP{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+#divperros {
+    padding: 5px;
+    margin: 0px;
+    background-color: #eaeaea;
+}
+
+#divgatos{
+    padding: 5px;
+    margin: 0px;
+    background-color: #eaeaea;
+}
+
+#h2perroygato{
+    text-align: center;
+    margin: 10px;
+    color: #4f6d7a;
+}
+
+#iconoPerro{
+    height: 50px;
+    width: 50px;
+}
+
+#iconoGato{
+    height: 50px;
+    width: 50px;
+}
+#cardtittle{
+    text-align: center;
+    color: #dd6e42;
+}
+
+#card{
+    margin: 10px;
+    background-color: #;
+}
+
+#card:hover{
+    background-color: #c0d6df;
+}
+
+#genero{
+    display: flex;
+    justify-content: center;
+}
+
+#iconoGenero{
+    width: 30px;
+    height: 30px;
+
+}
+#botonAdoptar{
+    background-color: #e8dab2;
+}
+
+#botonAdoptar:hover{
+    background-color: #dd6e42;
+    color: black;
+}
+
+#footer{
+    text-align: center;
+    background-color: #4f6d7a;
+    padding: 60px 0;
+
+}
+
+.logo-footer{
+width:  250px;
+
+}
+
+#contacto{
+    color: #eaeaea;
+    margin: 15px;
+    text-align: center;
+}
+
+#iconoContacto{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+#contacto a{
+    color: #dd6e42;
+    text-decoration: none;
+    text-align: center;
+}
+
+.copyright{
+color: #eaeaea;
+font-size: 20px;
+margin: 20px;
+}
