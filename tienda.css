@@ -6,6 +6,10 @@
     box-sizing: border-box;
     text-decoration: none
 }
+.imgProducto{
+    width: 230px;
+    margin: 10px;
+}
 
 #fundacionPatitas{
     margin: 10px;
