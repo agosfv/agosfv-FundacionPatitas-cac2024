@@ -43,9 +43,7 @@ transform: scale(1.2);
 #divTienda{
     background-color: #c0d6df;
     text-align: center;
-    padding: 5px;
-    border: 10px;
-    margin: 0px;
+    padding: 10px;
 }
 #divTienda h1 {
     color: #dd6e42;
@@ -72,9 +70,12 @@ transform: scale(1.2);
 #divProductos{
     padding: 20px;
     background-color: #eaeaea;
+   
 }
-
-
+.itemProducto{
+    border: #4f6d7a solid 2px;
+    margin: 10px;
+}
 .itemProducto:hover{
     background-color: #c0d6df !important;
 }
@@ -107,12 +108,12 @@ transform: scale(1.2);
     background-color: #dd6e42;
     transform: scale(1.2);
 }
-/*argenis*/
+/*argenis
 .container-items{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-}
+}*/
 
 .itemProducto{
     border-radius: 10px;
@@ -124,11 +125,14 @@ transform: scale(1.2);
 
 }
 
-
+.info-product h2{
+    color: #dd6e42;
+}
 
 .price {
     font-size: 30px;
     font-weight: 900;
+    color: #4f6d7a;
 }
 
 
