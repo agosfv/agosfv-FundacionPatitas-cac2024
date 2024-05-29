@@ -15,9 +15,6 @@ function enviar() {
     let enviar = confirm('¿Desea enviar el fomulario?');
 
     if (enviar == true) {
-        document.getElementById("nombreapellido").value="";
-        document.getElementById("correo").value = "";
-        document.getElementById("telefono").value = "";
 
         alert('¡Formulario enviado con exito!');
         console.log('Enviado');
