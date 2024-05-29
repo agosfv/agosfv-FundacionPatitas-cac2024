@@ -5,7 +5,6 @@ function borrar() {
         document.getElementById("nombreapellido").value = "";
         document.getElementById("correo").value = "";
         document.getElementById("telefono").value = "";
-        document.getElementById("mensajeText").value = "";
     }
     else if (borrar == false) {
         console.log('cancelado')
@@ -19,7 +18,6 @@ function enviar() {
         document.getElementById("nombreapellido").value="";
         document.getElementById("correo").value = "";
         document.getElementById("telefono").value = "";
-        document.getElementById("mensajeText").value = "";
 
         alert('¡Formulario enviado con exito!');
         console.log('Enviado');
