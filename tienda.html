@@ -192,8 +192,8 @@
         var pElement = document.getElementById("areaContador");
         var contador = 0;
 
-        function contar(){
-              botonElement.onclick = contar ();
+    
+              botonElement.onclick = function contar() {
             contador++;
             pElement.textContent = contador;
             
