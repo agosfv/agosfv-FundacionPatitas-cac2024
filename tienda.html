@@ -105,7 +105,7 @@
         <div class="col">
             <div class="itemProducto">
                 <div class="info-product">
-                    <img src="/assets/piloto.png" class="imgProducto">
+                    <img src="./assets/piloto.png" class="imgProducto">
                     <h2>
                         PILOTO PARA PERROS
 
@@ -124,7 +124,7 @@
                     COMEDERO PARA GATOS
 
                 </h2>
-                <p class="price"> ARS 10.500,00 </p>
+                <p class="price"> ARS 1.500,00 </p>
                 <button class="btnProducto">Añadir al carrito</button>
             </div>
         </div>
@@ -138,7 +138,7 @@
                     COMEDERO PARA PERROS
 
                 </h2>
-                <p class="price"> ARS 25.500,00 </p>
+                <p class="price"> ARS 2.000,00 </p>
                 <button class="btnProducto">Añadir al carrito</button>
             </div>
         </div>
@@ -152,7 +152,7 @@
                     JUGUETE PARA GATOS
 
                 </h2>
-                <p class="price"> ARS 35.800,00 </p>
+                <p class="price"> ARS 3.000,00 </p>
                 <button class="btnProducto">Añadir al carrito</button>
             </div>
         </div>
@@ -180,7 +180,7 @@
                     CAMA PARA GATOS
 
                 </h2>
-                <p class="price"> ARS 8.200,00 </p>
+                <p class="price"> ARS 9.200,00 </p>
                 <button class="btnProducto">Añadir al carrito</button>
             </div>
         </div>
@@ -188,11 +188,11 @@
     </div>
 
     <script>
-        var botonElement = document.getElementById("button");
+        var botonElement = document.getElementByClass("btnProducto");
         var pElement = document.getElementById("areaContador");
         var contador = 0;
 
-        botonElement.onclick = function () {
+        botonElement.onclick = contar () {
             contador++;
             pElement.textContent = contador;
         }
